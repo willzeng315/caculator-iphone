@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D033623319A999FE00BF8656 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D033623219A999FE00BF8656 /* Foundation.framework */; };
+		D033623519A999FE00BF8656 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D033623419A999FE00BF8656 /* CoreGraphics.framework */; };
+		D033623719A999FE00BF8656 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D033623619A999FE00BF8656 /* UIKit.framework */; };
+		D033623D19A999FE00BF8656 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D033623B19A999FE00BF8656 /* InfoPlist.strings */; };
+		D033623F19A999FE00BF8656 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D033623E19A999FE00BF8656 /* main.m */; };
+		D033624319A999FE00BF8656 /* CaculatorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D033624219A999FE00BF8656 /* CaculatorAppDelegate.m */; };
+		D033624919A999FE00BF8656 /* CaculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D033624819A999FE00BF8656 /* CaculatorViewController.m */; };
+		D033624B19A999FE00BF8656 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D033624A19A999FE00BF8656 /* Images.xcassets */; };
+		D033625219A999FE00BF8656 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D033625119A999FE00BF8656 /* XCTest.framework */; };
+		D033625319A999FE00BF8656 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D033623219A999FE00BF8656 /* Foundation.framework */; };
+		D033625419A999FE00BF8656 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D033623619A999FE00BF8656 /* UIKit.framework */; };
+		D033625C19A999FE00BF8656 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D033625A19A999FE00BF8656 /* InfoPlist.strings */; };
+		D033625E19A999FE00BF8656 /* Caculator2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D033625D19A999FE00BF8656 /* Caculator2Tests.m */; };
+		D033626919A9BE6400BF8656 /* CaculatorBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = D033626819A9BE6400BF8656 /* CaculatorBrain.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D033625519A999FE00BF8656 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D033622719A999FE00BF8656 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D033622E19A999FE00BF8656;
+			remoteInfo = Caculator2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D033622F19A999FE00BF8656 /* Caculator2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Caculator2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D033623219A999FE00BF8656 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D033623419A999FE00BF8656 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D033623619A999FE00BF8656 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D033623A19A999FE00BF8656 /* Caculator2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Caculator2-Info.plist"; sourceTree = "<group>"; };
+		D033623C19A999FE00BF8656 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D033623E19A999FE00BF8656 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D033624019A999FE00BF8656 /* Caculator2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Caculator2-Prefix.pch"; sourceTree = "<group>"; };
+		D033624119A999FE00BF8656 /* CaculatorAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CaculatorAppDelegate.h; sourceTree = "<group>"; };
+		D033624219A999FE00BF8656 /* CaculatorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CaculatorAppDelegate.m; sourceTree = "<group>"; };
+		D033624719A999FE00BF8656 /* CaculatorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CaculatorViewController.h; sourceTree = "<group>"; };
+		D033624819A999FE00BF8656 /* CaculatorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CaculatorViewController.m; sourceTree = "<group>"; };
+		D033624A19A999FE00BF8656 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D033625019A999FE00BF8656 /* Caculator2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Caculator2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D033625119A999FE00BF8656 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D033625919A999FE00BF8656 /* Caculator2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Caculator2Tests-Info.plist"; sourceTree = "<group>"; };
+		D033625B19A999FE00BF8656 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D033625D19A999FE00BF8656 /* Caculator2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Caculator2Tests.m; sourceTree = "<group>"; };
+		D033626719A9BE6400BF8656 /* CaculatorBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaculatorBrain.h; sourceTree = "<group>"; };
+		D033626819A9BE6400BF8656 /* CaculatorBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaculatorBrain.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D033622C19A999FE00BF8656 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D033623519A999FE00BF8656 /* CoreGraphics.framework in Frameworks */,
+				D033623719A999FE00BF8656 /* UIKit.framework in Frameworks */,
+				D033623319A999FE00BF8656 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D033624D19A999FE00BF8656 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D033625219A999FE00BF8656 /* XCTest.framework in Frameworks */,
+				D033625419A999FE00BF8656 /* UIKit.framework in Frameworks */,
+				D033625319A999FE00BF8656 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D033622619A999FE00BF8656 = {
+			isa = PBXGroup;
+			children = (
+				D033623819A999FE00BF8656 /* Caculator2 */,
+				D033625719A999FE00BF8656 /* Caculator2Tests */,
+				D033623119A999FE00BF8656 /* Frameworks */,
+				D033623019A999FE00BF8656 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D033623019A999FE00BF8656 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D033622F19A999FE00BF8656 /* Caculator2.app */,
+				D033625019A999FE00BF8656 /* Caculator2Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D033623119A999FE00BF8656 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D033623219A999FE00BF8656 /* Foundation.framework */,
+				D033623419A999FE00BF8656 /* CoreGraphics.framework */,
+				D033623619A999FE00BF8656 /* UIKit.framework */,
+				D033625119A999FE00BF8656 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D033623819A999FE00BF8656 /* Caculator2 */ = {
+			isa = PBXGroup;
+			children = (
+				D033624119A999FE00BF8656 /* CaculatorAppDelegate.h */,
+				D033624219A999FE00BF8656 /* CaculatorAppDelegate.m */,
+				D033626719A9BE6400BF8656 /* CaculatorBrain.h */,
+				D033626819A9BE6400BF8656 /* CaculatorBrain.m */,
+				D033624719A999FE00BF8656 /* CaculatorViewController.h */,
+				D033624819A999FE00BF8656 /* CaculatorViewController.m */,
+				D033624A19A999FE00BF8656 /* Images.xcassets */,
+				D033623919A999FE00BF8656 /* Supporting Files */,
+			);
+			path = Caculator2;
+			sourceTree = "<group>";
+		};
+		D033623919A999FE00BF8656 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D033623A19A999FE00BF8656 /* Caculator2-Info.plist */,
+				D033623B19A999FE00BF8656 /* InfoPlist.strings */,
+				D033623E19A999FE00BF8656 /* main.m */,
+				D033624019A999FE00BF8656 /* Caculator2-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D033625719A999FE00BF8656 /* Caculator2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D033625D19A999FE00BF8656 /* Caculator2Tests.m */,
+				D033625819A999FE00BF8656 /* Supporting Files */,
+			);
+			path = Caculator2Tests;
+			sourceTree = "<group>";
+		};
+		D033625819A999FE00BF8656 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D033625919A999FE00BF8656 /* Caculator2Tests-Info.plist */,
+				D033625A19A999FE00BF8656 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D033622E19A999FE00BF8656 /* Caculator2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D033626119A999FE00BF8656 /* Build configuration list for PBXNativeTarget "Caculator2" */;
+			buildPhases = (
+				D033622B19A999FE00BF8656 /* Sources */,
+				D033622C19A999FE00BF8656 /* Frameworks */,
+				D033622D19A999FE00BF8656 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Caculator2;
+			productName = Caculator2;
+			productReference = D033622F19A999FE00BF8656 /* Caculator2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D033624F19A999FE00BF8656 /* Caculator2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D033626419A999FE00BF8656 /* Build configuration list for PBXNativeTarget "Caculator2Tests" */;
+			buildPhases = (
+				D033624C19A999FE00BF8656 /* Sources */,
+				D033624D19A999FE00BF8656 /* Frameworks */,
+				D033624E19A999FE00BF8656 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D033625619A999FE00BF8656 /* PBXTargetDependency */,
+			);
+			name = Caculator2Tests;
+			productName = Caculator2Tests;
+			productReference = D033625019A999FE00BF8656 /* Caculator2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D033622719A999FE00BF8656 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Caculator;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = com.test;
+				TargetAttributes = {
+					D033624F19A999FE00BF8656 = {
+						TestTargetID = D033622E19A999FE00BF8656;
+					};
+				};
+			};
+			buildConfigurationList = D033622A19A999FE00BF8656 /* Build configuration list for PBXProject "Caculator2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D033622619A999FE00BF8656;
+			productRefGroup = D033623019A999FE00BF8656 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D033622E19A999FE00BF8656 /* Caculator2 */,
+				D033624F19A999FE00BF8656 /* Caculator2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D033622D19A999FE00BF8656 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D033624B19A999FE00BF8656 /* Images.xcassets in Resources */,
+				D033623D19A999FE00BF8656 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D033624E19A999FE00BF8656 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D033625C19A999FE00BF8656 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D033622B19A999FE00BF8656 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D033623F19A999FE00BF8656 /* main.m in Sources */,
+				D033626919A9BE6400BF8656 /* CaculatorBrain.m in Sources */,
+				D033624919A999FE00BF8656 /* CaculatorViewController.m in Sources */,
+				D033624319A999FE00BF8656 /* CaculatorAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D033624C19A999FE00BF8656 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D033625E19A999FE00BF8656 /* Caculator2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D033625619A999FE00BF8656 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D033622E19A999FE00BF8656 /* Caculator2 */;
+			targetProxy = D033625519A999FE00BF8656 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D033623B19A999FE00BF8656 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D033623C19A999FE00BF8656 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D033625A19A999FE00BF8656 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D033625B19A999FE00BF8656 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D033625F19A999FE00BF8656 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D033626019A999FE00BF8656 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D033626219A999FE00BF8656 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Caculator2/Caculator2-Prefix.pch";
+				INFOPLIST_FILE = "Caculator2/Caculator2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D033626319A999FE00BF8656 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Caculator2/Caculator2-Prefix.pch";
+				INFOPLIST_FILE = "Caculator2/Caculator2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D033626519A999FE00BF8656 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Caculator2.app/Caculator2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Caculator2/Caculator2-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Caculator2Tests/Caculator2Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D033626619A999FE00BF8656 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Caculator2.app/Caculator2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Caculator2/Caculator2-Prefix.pch";
+				INFOPLIST_FILE = "Caculator2Tests/Caculator2Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D033622A19A999FE00BF8656 /* Build configuration list for PBXProject "Caculator2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D033625F19A999FE00BF8656 /* Debug */,
+				D033626019A999FE00BF8656 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D033626119A999FE00BF8656 /* Build configuration list for PBXNativeTarget "Caculator2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D033626219A999FE00BF8656 /* Debug */,
+				D033626319A999FE00BF8656 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D033626419A999FE00BF8656 /* Build configuration list for PBXNativeTarget "Caculator2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D033626519A999FE00BF8656 /* Debug */,
+				D033626619A999FE00BF8656 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D033622719A999FE00BF8656 /* Project object */;
+}
